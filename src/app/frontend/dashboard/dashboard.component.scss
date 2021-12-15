@@ -1,0 +1,26 @@
+#Dashboard {
+  .mdi {
+    vertical-align: sub !important;
+  }
+
+  #main-header {}
+
+  #actions {}
+
+  .my-card {
+    cursor: pointer;
+
+    &:hover {
+      background-color: #fafafa !important;
+      color: #616161 !important;
+      transition: background-color 0.5s ease;
+      .btn{
+        color: #616161 !important;
+        border-color: #616161 !important;
+
+      }
+    }
+  }
+
+
+}

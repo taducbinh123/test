@@ -1,0 +1,10 @@
+.mySearchBtn {
+  opacity: 0.89;
+  color: #111121;
+
+  &:hover {
+    opacity: 1.0;
+    transition: opacity 0.5s ease;
+  }
+
+}
